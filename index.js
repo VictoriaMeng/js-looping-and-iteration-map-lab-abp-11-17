@@ -5,11 +5,11 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  let all_names = [];
+  const all_names = [];
 
   drivers.map(function (driver) {
-    var nameObject = {};
-    var names = driver.split(" ");
+    let nameObject = {};
+    let names = driver.split(" ");
     nameObject.firstName = names[0];
     nameObject.lastName = names[1];
     all_names.push(nameObject);
@@ -21,5 +21,5 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-
+  
 }
