@@ -21,10 +21,10 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  const list = ""
+  lets list = ""
 
   drivers.map(function (driver) {
-    list + '${driver.name} is from ${driver.hometown}';
+    list = '${list} + ${driver.name} is from ${driver.hometown}';
   });
 
   return list;
