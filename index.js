@@ -12,6 +12,7 @@ function nameToAttributes(drivers) {
     all_names[names[0]] = names[1];
   });
 
+  return all_names;
 }
 
 nameToAttributes(["Annie Oakley"]);
