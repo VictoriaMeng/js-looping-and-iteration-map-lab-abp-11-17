@@ -12,6 +12,7 @@ function nameToAttributes(drivers) {
     var names = driver.split(" ");
     nameObject[firstName] = names[0];
     nameObject[lastName] = names[1];
+    all_names.push(nameObject);
   });
 
   return all_names;
