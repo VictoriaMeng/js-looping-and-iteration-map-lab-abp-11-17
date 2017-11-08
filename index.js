@@ -5,6 +5,4 @@ function lowerCaseDrivers(drivers) {
 
 drivers = ["Anne", "Bob"];
 
-drivers.map(function (driver) {driver.toLowerCase()})
-
-
+newDrivers.map(function (driver) {driver.toLowerCase()})
