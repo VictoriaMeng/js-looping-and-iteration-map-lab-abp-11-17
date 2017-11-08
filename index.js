@@ -11,6 +11,6 @@ function nameToAttributes(drivers) {
   const last_names = {}
 
   drivers.map(function (driver) {
-      driver.split(" ");
+      const names_split = driver.split(" ");
   });
 }
