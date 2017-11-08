@@ -15,6 +15,8 @@ function nameToAttributes(drivers) {
     all_names.push(nameObject);
   });
 
+  console.log(all_names);
+
   return all_names;
 }
 
