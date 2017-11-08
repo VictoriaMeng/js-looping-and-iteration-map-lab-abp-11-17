@@ -15,3 +15,5 @@ function nameToAttributes(drivers) {
   });
 
 }
+
+nameToAttributes("Annie Oakley");
