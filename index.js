@@ -8,8 +8,6 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  let drivers_object = {}
-
   return drivers.map(function (driver) {
       return names_split = driver.split(" ");
   });
