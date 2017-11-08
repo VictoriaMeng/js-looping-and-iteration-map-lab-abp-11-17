@@ -20,4 +20,6 @@ function nameToAttributes(drivers) {
   return all_names;
 }
 
-
+function attributesToPhrase() {
+  
+}
