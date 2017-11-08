@@ -24,8 +24,7 @@ function attributesToPhrase(drivers) {
   let list = [];
 
   drivers.map(function (driver) {
-    list = list.concat(`${driver.name} is from ${driver.hometown}.`);
-    list = list.concat("")
+    list.push(`${driver.name} is from ${driver.hometown}.`)
   });
 
   return list;
