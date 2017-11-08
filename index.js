@@ -8,8 +8,8 @@ function nameToAttributes(drivers) {
   const all_names = [];
 
   drivers.map(function (driver) {
-    let nameObject = {};
-    let names = driver.split(" ");
+    const nameObject = {};
+    const names = driver.split(" ");
     nameObject.firstName = names[0];
     nameObject.lastName = names[1];
     all_names.push(nameObject);
@@ -21,5 +21,5 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  
+
 }
