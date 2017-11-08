@@ -13,6 +13,4 @@ function nameToAttributes(drivers) {
 
 }
 
-nameToAttributes(drivers) {
-  
-}
+nameToAttributes(["Annie Oakley"];
