@@ -8,9 +8,10 @@ function nameToAttributes(drivers) {
   let all_names = [];
 
   drivers.map(function (driver) {
-    var nameObject = {}
+    var nameObject = {};
     var names = driver.split(" ");
-    all_names.push()
+    nameObject[firstName] = names[0];
+    nameObject[lastName] = names[1];
   });
 
   return all_names;
