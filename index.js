@@ -9,8 +9,11 @@ function nameToAttributes(drivers) {
 
   return drivers.map(function (driver) {
       names_split = driver.split(" ");
+      console.log(names_split);
   });
 
   return drivers_object;
 
 }
+
+nameToAttributes("Annie Oakley");
