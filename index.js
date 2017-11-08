@@ -10,6 +10,7 @@ function nameToAttributes(drivers) {
   drivers.map(function (driver) {
     var names = driver.split(" ");
     all_names[names[0]] = names[1];
+    console.log(names, all_names);
   });
 
   return all_names;
