@@ -21,7 +21,7 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  lets list = "";
+  let list = "";
 
   drivers.map(function (driver) {
     list = '${list} + ${driver.name} is from ${driver.hometown}';
