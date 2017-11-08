@@ -23,5 +23,7 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers) {
   const message = ""
 
-  drivers.map();
+  drivers.map(function (driver) {
+    
+  });
 }
