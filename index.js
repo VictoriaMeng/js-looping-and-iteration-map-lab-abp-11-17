@@ -8,7 +8,7 @@ function nameToAttributes(drivers) {
   let all_names = {};
 
   drivers.map(function (driver) {
-    var names = driver.split(" ");
+    var name = driver.split(" ");
   });
 
 }
