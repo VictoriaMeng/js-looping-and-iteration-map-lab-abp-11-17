@@ -2,7 +2,7 @@
 const drivers = ["Anne"];
 
 function lowerCaseDrivers(drivers) {
-  drivers.map(function (driver) {
+  return drivers.map(function (driver) {
     return driver.toLowerCase();
   });
 }
