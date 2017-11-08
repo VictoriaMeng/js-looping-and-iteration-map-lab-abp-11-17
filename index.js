@@ -5,10 +5,10 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  let names = {}
-  
+  let names = {};
+
   drivers.map(function (driver) {
-    
+
   });
 
 }
