@@ -21,5 +21,7 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
+  const message = ""
 
+  
 }
