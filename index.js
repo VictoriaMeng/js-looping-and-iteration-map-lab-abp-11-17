@@ -5,8 +5,8 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-
+  drivers.map();
 
 }
 
-nameToAttributes("Annie Oakley");
+
