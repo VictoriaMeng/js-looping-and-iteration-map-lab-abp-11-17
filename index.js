@@ -11,7 +11,7 @@ function nameToAttributes(drivers) {
   const drivers_object = {}
 
   drivers.map(function (driver) {
-      var names_split = driver.split(" ");
+      let names_split = driver.split(" ");
       drivers_object[names_split[0]] = names_split[1];
   });
 
